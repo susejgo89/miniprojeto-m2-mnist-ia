@@ -1,0 +1,24 @@
+# Dependências do Projeto: IA para Análise Preditiva (MNIST)
+# Módulo 2 - Semana 05
+
+# Manipulação de Dados e Computação Numérica
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Visualização de Dados
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Machine Learning Clássico e Métricas
+scikit-learn>=1.4.0
+
+# Deep Learning / Redes Neurais Artificiais
+tensorflow>=2.16.0
+
+# Visão Computacional e Processamento Digital de Imagens (PDI)
+opencv-python>=4.9.0
+pillow>=10.2.0
+
+# Ambiente Interativo de Desenvolvimento
+jupyter>=1.0.0
+ipykernel>=6.29.0
