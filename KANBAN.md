@@ -8,7 +8,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 | 📋 Backlog | ⏳ Em Progresso | 🔍 Em Revisão / Validação | ✅ Concluído |
 | :--- | :--- | :--- | :--- |
-| **Passo 3**: Fase 2 - Split & Normalização | **Passo 2**: Fase 1 - EDA & Carga MNIST | — | **Passo 1**: Setup Inicial, Ambiente & Git |
+| **Passo 3**: Fase 2 - Split & Normalização | **Passo 2**: Fase 1 - EDA & Carga MNIST | — | **Passo 1**: Setup Inicial, Ambiente, Git & Docker |
 | **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | | | |
 | **Passo 5**: Fase 4 - Matrizes & Benchmark | | | |
 | **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras | | | |
@@ -25,9 +25,13 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 - [x] Inicializar Git (`main`), primeiro commit e criação da branch `develop`.
 - [x] Criar ambiente virtual `.venv` e instalar dependências.
 - [x] Registrar kernel do Jupyter (`miniprojeto-m2`).
+- [x] Configurar `Dockerfile`, `.dockerignore` e `docker-compose.yml` para containerização Docker.
 - [x] Criar arquivo `KANBAN.md` de acompanhamento.
 - **Branch**: `main` -> `develop`
-- **Commit**: `configura estrutura inicial do projeto e dependencias`
+- **Commits**:
+  - `283c030`: `configura estrutura inicial do projeto e dependencias`
+  - `3cedb69`: `adiciona quadro kanban de planejamento do projeto`
+  - `0932430`: `configura containerizacao com docker e docker compose`
 
 ---
 
@@ -110,5 +114,6 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 | Data / Hora | Branch | Hash | Mensagem do Commit | Descrição da Entrega |
 | :--- | :--- | :--- | :--- | :--- |
 | 31/08/2026 | `main` | `283c030` | `configura estrutura inicial do projeto e dependencias` | Estrutura base, `.gitignore` e `requirements.txt`. |
-| 31/08/2026 | `develop` | `(próximo)` | `adiciona quadro kanban de planejamento do projeto` | Criação do arquivo de rastreamento KANBAN.md. |
+| 31/08/2026 | `develop` | `3cedb69` | `adiciona quadro kanban de planejamento do projeto` | Criação do arquivo de rastreamento KANBAN.md. |
+| 31/08/2026 | `develop` | `0932430` | `configura containerizacao com docker e docker compose` | Criação de Dockerfile, .dockerignore e docker-compose.yml. |
 
