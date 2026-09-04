@@ -8,15 +8,15 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 | 📋 Backlog | ⏳ Em Progresso | 🔍 Em Revisão / Validação | ✅ Concluído |
 | :--- | :--- | :--- | :--- |
-| **Passo 1**: Setup Inicial, Ambiente & Git | ✅ Concluído |
-| **Passo 2**: Fase 1 - EDA & Carga MNIST | ✅ Concluído | 
-| **Passo 3**: Fase 2 - Split & Normalização | | | |
-| **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | | | |
+| **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | ⏳ Em Progresso |
 | **Passo 5**: Fase 4 - Matrizes & Benchmark | | | |
 | **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras | | | |
 | **Passo 7**: Fase 5.3 - Imagens Próprias (CV) | | | |
 | **Passo 8**: Documentação (README) & Vídeo | | | |
 
+| **Passo 1**: Setup Inicial, Ambiente & Git | ✅ Concluído |
+| **Passo 2**: Fase 1 - EDA & Carga MNIST | ✅ Concluído | 
+| **Passo 3**: Fase 2 - Split & Normalização | ✅ Concluído |
 ---
 
 ## 🗺️ Detalhamento das Etapas e Checklist de Entregas
@@ -47,10 +47,10 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 ---
 
 ### [ ] Passo 3: Fase 2 - Pipeline de Pré-processamento e Divisão dos Dados
-- [ ] Criar branch `feature/fase2-preprocessamento` a partir de `develop`.
-- [ ] Divisão estratificada (`stratify=y`) em Treino, Validação e Teste (ex: 70/10/20 ou 80/20).
-- [ ] Normalização dos pixels para o intervalo $[0.0, 1.0]$ dividindo por 255.0.
-- [ ] Célula conceitual: Justificar textualmente a importância da normalização para convergência de modelos lineares e distâncias métricas.
+- [x] Criar branch `feature/fase2-preprocessamento` a partir de `develop`.
+- [x] Divisão estratificada (`stratify=y`) em Treino, Validação e Teste (ex: 70/10/20 ou 80/20).
+- [x] Normalização dos pixels para o intervalo $[0.0, 1.0]$ dividindo por 255.0.
+- [x] Célula conceitual: Justificar textualmente a importância da normalização para convergência de modelos lineares e distâncias métricas.
 - **Branch**: `feature/fase2-preprocessamento`
 - **Commit Planejado**: `implementa split estratificado e normalizacao de dados`
 
