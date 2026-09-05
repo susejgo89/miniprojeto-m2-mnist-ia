@@ -12,6 +12,10 @@ seaborn>=0.13.0
 # Machine Learning Clássico e Métricas
 scikit-learn>=1.4.0
 
+# Gradient Boosting
+xgboost>=2.0.0
+lightgbm>=4.3.0
+
 # Deep Learning / Redes Neurais Artificiais
 tensorflow>=2.16.0
 

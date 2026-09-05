@@ -8,8 +8,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 | 📋 Backlog | ⏳ Em Progresso | 🔍 Em Revisão / Validação | ✅ Concluído |
 | :--- | :--- | :--- | :--- |
-| **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | ⏳ Em Progresso |
-| **Passo 5**: Fase 4 - Matrizes & Benchmark | | | |
+| **Passo 5**: Fase 4 - Matrizes & Benchmark |⏳ Em Progresso |
 | **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras | | | |
 | **Passo 7**: Fase 5.3 - Imagens Próprias (CV) | | | |
 | **Passo 8**: Documentação (README) & Vídeo | | | |
@@ -17,6 +16,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 | **Passo 1**: Setup Inicial, Ambiente & Git | ✅ Concluído |
 | **Passo 2**: Fase 1 - EDA & Carga MNIST | ✅ Concluído | 
 | **Passo 3**: Fase 2 - Split & Normalização | ✅ Concluído |
+| **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | ✅ Concluído | 
 ---
 
 ## 🗺️ Detalhamento das Etapas e Checklist de Entregas
@@ -57,11 +57,12 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 ---
 
 ### [ ] Passo 4: Fase 3 - Implementação e Treinamento de 3 Modelos Distintos
-- [ ] Criar branch `feature/fase3-modelagem` a partir de `develop`.
-- [ ] Implementar Modelo 1: Random Forest Classifier (Ajuste de `n_estimators` e `max_depth`).
-- [ ] Implementar Modelo 2: Support Vector Machine (SVM) (Ajuste de `C` e `kernel`).
-- [ ] Implementar Modelo 3: Multi-Layer Perceptron (MLP) (Ajuste de neurônios, taxa de aprendizado e ativação).
-- [ ] Registrar tempo de treinamento de cada modelo.
+- [x] Criar branch `feature/fase3-modelagem` a partir de `develop`.
+- [x] Implementar Modelo 1: Random Forest Classifier (Ajuste de `n_estimators` e `max_depth`).
+- [x] Implementar Modelo 2: LightGBM — Microsoft (Ajuste de `learning_rate`).
+- [x] Implementar Modelo 3: Support Vector Machine (SVM) (Ajuste de `C` e `kernel`).
+- [x] Implementar Modelo 4: Multi-Layer Perceptron (MLP) (Ajuste de neurônios, taxa de aprendizado e ativação).
+- [x] Registrar tempo de treinamento de cada modelo.
 - **Branch**: `feature/fase3-modelagem`
 - **Commit Planejado**: `implementa e treina modelos random forest, svm e mlp`
 
