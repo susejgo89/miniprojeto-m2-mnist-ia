@@ -8,8 +8,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 | 📋 Backlog | ⏳ Em Progresso | 🔍 Em Revisão / Validação | ✅ Concluído |
 | :--- | :--- | :--- | :--- |
-| **Passo 5**: Fase 4 - Matrizes & Benchmark |⏳ Em Progresso |
-| **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras | | | |
+| **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras |⏳ Em Progresso |
 | **Passo 7**: Fase 5.3 - Imagens Próprias (CV) | | | |
 | **Passo 8**: Documentação (README) & Vídeo | | | |
 
@@ -17,6 +16,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 | **Passo 2**: Fase 1 - EDA & Carga MNIST | ✅ Concluído | 
 | **Passo 3**: Fase 2 - Split & Normalização | ✅ Concluído |
 | **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | ✅ Concluído | 
+| **Passo 5**: Fase 4 - Matrizes & Benchmark |✅ Concluído|
 ---
 
 ## 🗺️ Detalhamento das Etapas e Checklist de Entregas
@@ -46,7 +46,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 ---
 
-### [ ] Passo 3: Fase 2 - Pipeline de Pré-processamento e Divisão dos Dados
+### [x] Passo 3: Fase 2 - Pipeline de Pré-processamento e Divisão dos Dados
 - [x] Criar branch `feature/fase2-preprocessamento` a partir de `develop`.
 - [x] Divisão estratificada (`stratify=y`) em Treino, Validação e Teste (ex: 70/10/20 ou 80/20).
 - [x] Normalização dos pixels para o intervalo $[0.0, 1.0]$ dividindo por 255.0.
@@ -56,7 +56,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 ---
 
-### [ ] Passo 4: Fase 3 - Implementação e Treinamento de 3 Modelos Distintos
+### [x] Passo 4: Fase 3 - Implementação e Treinamento de 3 Modelos Distintos
 - [x] Criar branch `feature/fase3-modelagem` a partir de `develop`.
 - [x] Implementar Modelo 1: Random Forest Classifier (Ajuste de `n_estimators` e `max_depth`).
 - [x] Implementar Modelo 2: LightGBM — Microsoft (Ajuste de `learning_rate`).
@@ -68,11 +68,11 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 ---
 
-### [ ] Passo 5: Fase 4 - Avaliação Comparativa de Desempenho
-- [ ] Criar branch `feature/fase4-avaliacao-comparativa` a partir de `develop`.
-- [ ] Gerar Matrizes de Confusão completas ($10 \times 10$) em Heatmap para os 3 modelos.
-- [ ] Gerar Tabela Comparativa Consolidada (Accuracy, Precision ponderada, Recall ponderado, F1-Score ponderado).
-- [ ] Célula técnica de conclusão: Análise de dígitos mais confusos (ex: 4 vs 9, 3 vs 5), melhor modelo e custo computacional (tempo vs acurácia).
+### [x] Passo 5: Fase 4 - Avaliação Comparativa de Desempenho
+- [x] Criar branch `feature/fase4-avaliacao-comparativa` a partir de `develop`.
+- [x] Gerar Matrizes de Confusão completas ($10 \times 10$) em Heatmap para os 3 modelos.
+- [x] Gerar Tabela Comparativa Consolidada (Accuracy, Precision ponderada, Recall ponderado, F1-Score ponderado).
+- [x] Célula técnica de conclusão: Análise de dígitos mais confusos (ex: 4 vs 9, 3 vs 5), melhor modelo e custo computacional (tempo vs acurácia).
 - **Branch**: `feature/fase4-avaliacao-comparativa`
 - **Commit Planejado**: `implementa avaliacao comparativa e matrizes de confusao`
 
