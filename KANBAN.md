@@ -79,8 +79,8 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 ---
 
 ### [ ] Passo 6: Fase 5.1 & 5.2 - Mascaramento de Classes & Generalização Extrema (OOD)
-- [ ] Criar branch `feature/fase5-generalizacao-ood` a partir de `develop`.
-- [ ] Desafio A: Remover pelo menos duas classes do treino (ex: dígitos 4 e 7) e treinar modelo sem vê-las.
+- [x] Criar branch `feature/fase5-generalizacao-ood` a partir de `develop`.
+- [x] Desafio A: Remover pelo menos duas classes do treino (ex: dígitos 4 e 7) e treinar modelo sem vê-las.
 - [ ] Desafio B: Testar o modelo exclusivamente nas classes ocultadas.
 - [ ] Plotar distribuição de predições, matriz de confusão e analisar o fenômeno de "Falsa Certeza" (Overconfidence).
 - **Branch**: `feature/fase5-generalizacao-ood`
