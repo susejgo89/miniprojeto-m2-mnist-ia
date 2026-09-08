@@ -8,8 +8,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 | 📋 Backlog | ⏳ Em Progresso | 🔍 Em Revisão / Validação | ✅ Concluído |
 | :--- | :--- | :--- | :--- |
-| **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras |⏳ Em Progresso |
-| **Passo 7**: Fase 5.3 - Imagens Próprias (CV) | | | |
+| **Passo 7**: Fase 5.3 - Imagens Próprias (CV) | ⏳ Em Progresso  |
 | **Passo 8**: Documentação (README) & Vídeo | | | |
 
 | **Passo 1**: Setup Inicial, Ambiente & Git | ✅ Concluído |
@@ -17,6 +16,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 | **Passo 3**: Fase 2 - Split & Normalização | ✅ Concluído |
 | **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | ✅ Concluído | 
 | **Passo 5**: Fase 4 - Matrizes & Benchmark |✅ Concluído|
+| **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras | ✅ Concluído | 
 ---
 
 ## 🗺️ Detalhamento das Etapas e Checklist de Entregas
@@ -81,8 +81,8 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 ### [ ] Passo 6: Fase 5.1 & 5.2 - Mascaramento de Classes & Generalização Extrema (OOD)
 - [x] Criar branch `feature/fase5-generalizacao-ood` a partir de `develop`.
 - [x] Desafio A: Remover pelo menos duas classes do treino (ex: dígitos 4 e 7) e treinar modelo sem vê-las.
-- [ ] Desafio B: Testar o modelo exclusivamente nas classes ocultadas.
-- [ ] Plotar distribuição de predições, matriz de confusão e analisar o fenômeno de "Falsa Certeza" (Overconfidence).
+- [x] Desafio B: Testar o modelo exclusivamente nas classes ocultadas.
+- [x] Plotar distribuição de predições, matriz de confusão e analisar o fenômeno de "Falsa Certeza" (Overconfidence).
 - **Branch**: `feature/fase5-generalizacao-ood`
 - **Commit Planejado**: `implementa testes de estresse com mascaramento e inferencia ood`
 
