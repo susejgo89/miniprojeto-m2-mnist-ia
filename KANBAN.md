@@ -8,8 +8,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 | 📋 Backlog | ⏳ Em Progresso | 🔍 Em Revisão / Validação | ✅ Concluído |
 | :--- | :--- | :--- | :--- |
-| **Passo 7**: Fase 5.3 - Imagens Próprias (CV) | ⏳ Em Progresso  |
-| **Passo 8**: Documentação (README) & Vídeo | | | |
+| **Passo 8**: Documentação (README) & Vídeo | ⏳ Em Progresso |
 
 | **Passo 1**: Setup Inicial, Ambiente & Git | ✅ Concluído |
 | **Passo 2**: Fase 1 - EDA & Carga MNIST | ✅ Concluído | 
@@ -17,6 +16,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 | **Passo 4**: Fase 3 - Modelagem (SVM, RF, MLP) | ✅ Concluído | 
 | **Passo 5**: Fase 4 - Matrizes & Benchmark |✅ Concluído|
 | **Passo 6**: Fase 5.1/5.2 - OOD & Máscaras | ✅ Concluído | 
+| **Passo 7**: Fase 5.3 - Imagens Próprias (CV) | ✅ Concluído |
 ---
 
 ## 🗺️ Detalhamento das Etapas e Checklist de Entregas
@@ -89,10 +89,10 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 ---
 
 ### [ ] Passo 7: Fase 5.3 - Desafio C: Inferência com Imagens Manuscritas Próprias
-- [ ] Criar branch `feature/fase5-inferencia-customizada` a partir de `develop`.
-- [ ] Criar pipeline de visão computacional (OpenCV/Pillow): Grayscale -> Inversão -> Bounding Box -> Redimensionamento $28 \times 28$ com centro de massa -> Normalização $[0, 1]$.
-- [ ] Salvar amostras de imagens reais em `data/custom_digits/`.
-- [ ] Realizar predição com o melhor modelo e plotar imagem processada lado a lado com gráfico de probabilidades.
+- [x] Criar branch `feature/fase5-inferencia-customizada` a partir de `develop`.
+- [x] Criar pipeline de visão computacional (OpenCV/Pillow): Grayscale -> Inversão -> Bounding Box -> Redimensionamento $28 \times 28$ com centro de massa -> Normalização $[0, 1]$.
+- [x] Salvar amostras de imagens reais em `data/custom_digits/`.
+- [x] Realizar predição com o melhor modelo e plotar imagem processada lado a lado com gráfico de probabilidades.
 - **Branch**: `feature/fase5-inferencia-customizada`
 - **Commit Planejado**: `implementa pipeline de visao computacional para digitos manuscritos reais`
 
