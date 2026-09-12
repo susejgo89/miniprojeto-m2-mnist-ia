@@ -88,7 +88,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 
 ---
 
-### [ ] Passo 7: Fase 5.3 - Desafio C: Inferência com Imagens Manuscritas Próprias
+### [x] Passo 7: Fase 5.3 - Desafio C: Inferência com Imagens Manuscritas Próprias
 - [x] Criar branch `feature/fase5-inferencia-customizada` a partir de `develop`.
 - [x] Criar pipeline de visão computacional (OpenCV/Pillow): Grayscale -> Inversão -> Bounding Box -> Redimensionamento $28 \times 28$ com centro de massa -> Normalização $[0, 1]$.
 - [x] Salvar amostras de imagens reais em `data/custom_digits/`.
