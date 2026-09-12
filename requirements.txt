@@ -26,3 +26,7 @@ pillow>=10.2.0
 # Ambiente Interativo de Desenvolvimento
 jupyter>=1.0.0
 ipykernel>=6.29.0
+
+# Aplicação Web Interativa e Canvas de Inferência
+streamlit>=1.30.0
+streamlit-drawable-canvas>=0.13.0
