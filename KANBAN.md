@@ -102,7 +102,7 @@ Este documento registra o planejamento, a rota de desenvolvimento, o status de c
 - [x] Criar branch `feature/documentacao-readme` a partir de `develop`.
 - [x] Criar `README.md` completo com escopo, arquitetura, instruções de execução, resultados e link do vídeo.
 - [x] Elaborar roteiro estruturado para o vídeo de apresentação de 10 minutos (respondendo a todos os itens da Seção 5.4).
-- [ ] Realizar merges finais: todas as features em `develop`, e `develop` na `main`.
+- [x] Realizar merges finais: todas as features em `develop`, e `develop` na `main`.
 - **Branch**: `feature/documentacao-readme` -> `develop` -> `main`
 - **Commit Planejado**: `adiciona documentacao completa do projeto no readme`
 

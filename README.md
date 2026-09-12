@@ -18,7 +18,7 @@
 
 ---
 
-### 🎥 [Clique aqui para assistir ao Vídeo de Apresentação Oficial (10 Minutos)](#-8-roteiro-e-gravação-do-vídeo-de-apresentação) 🎬
+### 🎥 [Clique aqui para assistir ao Vídeo de Apresentação Oficial (10 Minutos)](https://drive.google.com/file/d/18_wt3VQQnRbHpfVo5dy0sYqofmLoDPHl/view?usp=sharing) 🎬
 *(Link do YouTube / Google Drive)*
 
 ---
@@ -235,11 +235,13 @@ miniprojeto-M2/
 ├── KANBAN.md                           # Rastreamento ágil e commits
 └── README.md                           # Documentação oficial do projeto
 ```
-
-
+---
+## 🎬 8. Vídeo de Apresentação Oficial (10 Minutos)
+- 🎥 **Link de Acesso Direto ao Vídeo:** 
+[Clique aqui para assistir no Google Drive](https://drive.google.com/file/d/18_wt3VQQnRbHpfVo5dy0sYqofmLoDPHl/view?usp=sharing)
 ---
 
-## 📜 8. Rastreabilidade e Git Flow
+## 📜 9. Rastreabilidade e Git Flow
 
 O desenvolvimento seguiu rigorosamente o modelo **Git Flow**:
 * `main`: Código de produção final e documentação consolidada.
